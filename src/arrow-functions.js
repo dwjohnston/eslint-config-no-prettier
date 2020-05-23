@@ -30,6 +30,17 @@ const af8 = (
   bash
 ) => 'hello'; 
 
+const af8b = (foo,
+  bar,
+  biz, 
+  bash)  => 'hello';
+
+// Spacing
+
+const af9 = ()=>undefined; 
+const af10 = () => undefined; 
+
+
 // Arrow functions - Creating
 
 // One arg
@@ -50,6 +61,19 @@ af7(
   'three',
   'four'
 );
+af7(
+  'one', 'two',
+  'three',
+  'four'
+);
+af7(
+  'one', 'two',  'three',  'four'
+);
+
+af7('one', 
+  'two', 
+  'three', 
+  'four'); 
 
 
 
